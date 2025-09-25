@@ -39,5 +39,5 @@ variable "azs" {
 variable "ecr_repo_names" {
   description = "List of ECR repository names to create"
   type        = list(string)
-  default     = ["jasmine-app-repo"]
+  default     = ["jasmine-webapp-repo"]
 }
